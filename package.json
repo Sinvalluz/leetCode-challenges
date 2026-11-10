@@ -1,0 +1,21 @@
+{
+	"name": "leetcode-challenges",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": { "run": "tsx /src/main.ts", "prepare": "husky" },
+	"lint-staged": { "*.{js,jsx,ts,tsx,json,jsonc,css}": ["biome check --write "] },
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devEngines": { "packageManager": { "name": "pnpm", "version": "^11.18.0", "onFail": "download" } },
+	"type": "module",
+	"devDependencies": {
+		"@biomejs/biome": "2.6.6",
+		"@types/node": "^26.6.6",
+		"husky": "^9.1.7",
+		"lint-staged": "^17.6.0",
+		"tsx": "^4.23.15",
+		"typescript": "^7.0.2"
+	}
+}
